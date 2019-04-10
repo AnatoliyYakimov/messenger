@@ -1,5 +1,6 @@
 package server;
 
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
@@ -18,7 +19,15 @@ class Client {
         this.inputStream = inputStream;
         this.outputStream = outputStream;
     }
-
+    void close(){
+        try {
+            socket.close();
+            outputStream.close();
+            inputStream.close();
+        }
+        catch (IOException e){
+        }
+    }
     void setOutputStream(ObjectOutputStream oos){
         outputStream = oos;
     }

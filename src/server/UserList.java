@@ -20,6 +20,7 @@ public class UserList {
         return false;
     }
     public void deleteUser(String login){
+        onlineUsers.get(login).close();
         onlineUsers.remove(login);
     }
 

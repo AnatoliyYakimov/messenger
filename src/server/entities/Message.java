@@ -1,4 +1,4 @@
-package server;
+package server.entities;
 
 import java.io.Serializable;
 import java.sql.Time;
@@ -6,30 +6,23 @@ import java.util.Date;
 
 public class Message implements Serializable {
 
+    private Type type;
+
     private String login;
     private String message;
-    private String[] users;
     private Date time;
-
     /*
     Client-side constructor
      */
-    public Message(String login, String message){
+    public Message(String login, String message, Type type) {
         this.login = login;
         this.message = message;
         this.time = java.util.Calendar.getInstance().getTime();
+        this.type = type;
     }
 
-    /*
-        Server-side constructor
-    */
-    Message(String login, String message, String[] users){
-        this(login,message);
-        this.users = users;
-    }
-
-    void setUsers(String[] users){
-        this.users = users;
+    public Date getTime() {
+        return time;
     }
 
     public String getLogin(){
@@ -40,11 +33,19 @@ public class Message implements Serializable {
         return this.message;
     }
 
-    String setTime(){
+    public Type getType() {
+        return type;
+    }
+
+    public String setTime() {
         Time tm = new Time(this.time.getTime());
         return tm.toString();
     }
-    String to_string(){
-        return message;
+
+    public enum Type {
+        PING,
+        TEXT,
+        LOGIN,
+        SYSTEM
     }
 }

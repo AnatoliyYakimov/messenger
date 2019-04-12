@@ -1,34 +1,30 @@
-package server;
+package server.entities;
 
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.net.Socket;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class UserList {
     private Map<String, Client> onlineUsers = new HashMap<>();
 
     public UserList(){ }
 
-    public boolean addUser(String login, Socket socket, ObjectOutputStream oos, ObjectInputStream ois){
+    public synchronized void addUser(String login, Client client) {
         if (!this.onlineUsers.containsKey(login)) {
-            onlineUsers.put(login, new Client(socket, ois, oos));
-            return true;
+            onlineUsers.put(login, client);
         }
-        return false;
     }
-    public void deleteUser(String login){
-        onlineUsers.get(login).close();
+
+    public synchronized void deleteUser(String login) {
         onlineUsers.remove(login);
     }
 
-    public String[] getUsers(){
+    public synchronized String[] getUsers() {
         return onlineUsers.keySet().toArray(new String[0]);
     }
 
-    public ArrayList<Client> getClientsList(){
+    public synchronized ArrayList<Client> getClientsList() {
         ArrayList<Client> clients = new ArrayList<>(onlineUsers.size());
 
         for(Map.Entry<String, Client> entry : onlineUsers.entrySet()){

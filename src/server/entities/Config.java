@@ -1,4 +1,4 @@
-package server;
+package server.entities;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,8 +23,10 @@ public class Config {
             DELAY = Integer.parseInt(properties.getProperty("DELAY"));
             HELLO_MESSAGE = properties.getProperty("HELLO_MESSAGE");
         } catch (FileNotFoundException e) {
+            System.err.println("Can`t find server.properties!");
             e.printStackTrace();
         } catch (IOException e) {
+            System.err.println("System.properties seems broken");
             e.printStackTrace();
         }
     }

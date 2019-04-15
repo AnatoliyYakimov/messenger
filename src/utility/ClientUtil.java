@@ -1,6 +1,6 @@
 package utility;
 
-import server.entities.Message;
+import server.model.entities.Message;
 
 public class ClientUtil {
     public static String formatMessage(Message msg){

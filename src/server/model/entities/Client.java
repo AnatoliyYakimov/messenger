@@ -1,6 +1,4 @@
-package server.entities;
-
-import server.Server;
+package server.model.entities;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -8,7 +6,7 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 
 public class Client implements AutoCloseable {
-    String login;
+    private String login;
     private Socket socket;
     private ObjectOutputStream outputStream;
     private ObjectInputStream inputStream;
@@ -29,7 +27,6 @@ public class Client implements AutoCloseable {
     public void close() {
         if (socket != null && !socket.isClosed()) {
             try {
-                Server.getUserList().deleteUser(this.login);
                 socket.close();
             } catch (IOException e) {
                 System.err.println("Error while closing Connetion");

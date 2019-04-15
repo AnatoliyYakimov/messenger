@@ -10,7 +10,7 @@ public class TestClient {
         int i = 1;
             executorService.scheduleWithFixedDelay(new ClientThread("ОРУССУМ_" + i), 1, 1, TimeUnit.SECONDS);
         */
-        ClientFactory factory = new ClientFactory(20, 100);
+        ClientFactory factory = new ClientFactory(4, 2000);
         executorService.execute(factory);
     }
 }

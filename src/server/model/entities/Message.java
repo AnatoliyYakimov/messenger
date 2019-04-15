@@ -1,4 +1,4 @@
-package server.entities;
+package server.model.entities;
 
 import java.io.Serializable;
 import java.sql.Time;
@@ -45,7 +45,7 @@ public class Message implements Serializable {
     public enum Type {
         PING,
         TEXT,
-        LOGIN,
+        HEADER,
         SYSTEM
     }
 }

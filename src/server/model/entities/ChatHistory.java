@@ -3,21 +3,20 @@ package server.model.entities;
 import utility.Config;
 
 import java.io.Serializable;
-import java.util.concurrent.ArrayBlockingQueue;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class ChatHistory implements Serializable {
-    private ArrayBlockingQueue<Message> history = new ArrayBlockingQueue<>(Config.HISTORY_LENGTH);
+    private ConcurrentLinkedDeque<Message> history = new ConcurrentLinkedDeque<>();
 
     public synchronized void addMessage(Message msg) {
-        synchronized (history) {
             if (this.history.size() >= Config.HISTORY_LENGTH) {
                 this.history.remove();
             }
             this.history.add(msg);
-        }
     }
 
-    public ArrayBlockingQueue<Message> getHistory() {
+    public Queue<Message> getHistory() {
         return history;
     }
 }

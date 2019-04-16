@@ -2,35 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1282047-2b39-4776-8289-59ec67343c79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/client/ClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/client/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/client/TestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/ConnectionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/DataBaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/IModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/OnlineManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/PostingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/ChatHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/Ping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/UserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/utility/ClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/utility/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UIView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Messenger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Messenger.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Messenger/client/TestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Messenger/utility/ClientUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/ClientFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/ClientThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/TestClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/ClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/ConnectionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/DataBaseManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/IModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/OnlineManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/PostingService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/entities/ChatHistory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/entities/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/entities/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/entities/Ping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/model/entities/UserList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/view/ServerGUI.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/view/ServerGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/view/ViewPresenter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/ClientUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utility/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,63 +46,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/model/ClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/utility/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/model/entities/ChatHistory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+            <state relative-caret-position="540">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UIView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/server/model/PostingService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="454">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientThread.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+            <state relative-caret-position="260">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/IModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -107,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Messenger.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="460">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -138,15 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/client/ClientGUI.java" />
-        <option value="$PROJECT_DIR$/src/server/DataBaseManager.java" />
-        <option value="$PROJECT_DIR$/src/server/ClientThread.java" />
-        <option value="$PROJECT_DIR$/src/server/entities/Config.java" />
-        <option value="$PROJECT_DIR$/src/server/events/MessageEvent.java" />
-        <option value="$PROJECT_DIR$/src/server/Client.java" />
-        <option value="$PROJECT_DIR$/src/server/MessengeReciever.java" />
-        <option value="$PROJECT_DIR$/src/server/Sender.java" />
-        <option value="$PROJECT_DIR$/src/utility/ClientUtil.java" />
         <option value="$PROJECT_DIR$/src/server/entities/ChatHistory.java" />
         <option value="$PROJECT_DIR$/src/server/entities/Client.java" />
         <option value="$PROJECT_DIR$/src/server/Reciever.java" />
@@ -187,8 +182,17 @@
         <option value="$PROJECT_DIR$/src/client/ClientFactory.java" />
         <option value="$PROJECT_DIR$/src/server/model/entities/ChatHistory.java" />
         <option value="$PROJECT_DIR$/src/main/java/server/model/entities/ChatHistory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/model/IModel.java" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/client/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/model/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/server/view/UIView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yakimov/server/utility/Config.java" />
         <option value="$PROJECT_DIR$/Messenger.iml" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UIView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UITest.java" />
       </list>
     </option>
   </component>
@@ -206,6 +210,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
     <treeState>
       <expand>
         <path>
@@ -217,6 +222,17 @@
           <item name="Messenger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Messenger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Messenger" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.openjfx:javafx-controls:11.0.2" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -225,10 +241,10 @@
     <option name="delegateBuildToMaven" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="304" />
+    <option name="x" value="296" />
     <option name="y" value="60" />
-    <option name="width" value="1370" />
-    <option name="height" value="997" />
+    <option name="width" value="1390" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,8 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,6 +285,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yakimov" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Messenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yakimov" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,8 +302,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yakimov" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Messenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yakimov" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Messenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Messenger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Messenger" type="b2602c69:ProjectViewProjectNode" />
@@ -290,14 +335,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.STATE" value="right" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.STATE" value="left" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/TestForCarierDay" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -322,27 +374,18 @@
   </component>
   <component name="RunManager" selected="Application.ClientTest">
     <configuration name="ClientTest" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="client.TestClient" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.yakimov.client.TestClient" />
       <module name="Messenger" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="IModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.model.IModel" />
-      <module name="Messenger" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.yakimov.server.model.IModel" />
       <module name="Messenger" />
       <extension name="coverage">
         <pattern>
@@ -354,12 +397,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-1.11.0-openjdk-amd64" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="server.model.IModel" />
+      <module name="Messenger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yakimov.server.view.UITest" />
+      <module name="Messenger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yakimov.server.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UIView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/usr/lib/jvm/java-11-openjdk-amd64" />
+      <option name="MAIN_CLASS_NAME" value="com.yakimov.server.view.UIView" />
+      <module name="Messenger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yakimov.server.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Messenger-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/Messenger-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.ClientTest" />
       <item itemvalue="Application.IModel" />
+      <item itemvalue="Application.UIView" />
+      <item itemvalue="JAR Application.Messenger-1.0-SNAPSHOT.jar" />
+      <item itemvalue="Application.UITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UITest" />
+        <item itemvalue="JAR Application.Messenger-1.0-SNAPSHOT.jar" />
+        <item itemvalue="Application.UIView" />
         <item itemvalue="Application.IModel" />
       </list>
     </recent_temporary>
@@ -396,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555318458190</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Maven интегрирован в проект">
+      <created>1555320300845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555320300845</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Реорганизованно дерево каталога">
+      <created>1555414618284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555414618284</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -410,16 +519,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="40" width="1856" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20630531" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21128319" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.3290461" />
-      <window_info anchor="bottom" id="Build" weight="0.3290461" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3290461" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.33118972" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -431,6 +539,8 @@
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3290461" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="11" weight="0.3290461" />
+      <window_info anchor="bottom" id="Build" order="12" weight="0.3290461" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -446,7 +556,9 @@
     <MESSAGE value="Reworked server architecture" />
     <MESSAGE value="Серьёзно переписана модель сервера. Убраны лишние классы, общие ресурсы&#10;сделаны потокобезопасными. Добавлен интерфейс для взаимодействия с&#10;представлением" />
     <MESSAGE value="Коллекция в истории сообщений заменена на потокобезопасную" />
-    <option name="LAST_COMMIT_MESSAGE" value="Коллекция в истории сообщений заменена на потокобезопасную" />
+    <MESSAGE value="Maven интегрирован в проект" />
+    <MESSAGE value="Реорганизованно дерево каталога" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реорганизованно дерево каталога" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -456,11 +568,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/client/ClientGUI.form" />
-    <entry file="file://$PROJECT_DIR$/out/production/Messenger/server/Server.class" />
-    <entry file="file://$PROJECT_DIR$/src/client/ClientController.java" />
-    <entry file="file://$PROJECT_DIR$/src/client/Postman.java" />
-    <entry file="file://$PROJECT_DIR$/src/client/ClientGUI.java" />
     <entry file="file://$PROJECT_DIR$/src/client/MessageListener.java" />
     <entry file="file://$PROJECT_DIR$/src/client/TestClientThread.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Main.java" />
@@ -513,13 +620,6 @@
     <entry file="file://$PROJECT_DIR$/src/server/Sender.java" />
     <entry file="file://$PROJECT_DIR$/src/server/Postman.java" />
     <entry file="file://$PROJECT_DIR$/src/server/SystemListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/ClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/view/ServerGUIview.java" />
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop/javax/swing/text/PlainView.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -566,14 +666,14 @@
     <entry file="file://$PROJECT_DIR$/src/server/model/MessageEvents.java" />
     <entry file="file://$PROJECT_DIR$/src/server/model/Pinger.java" />
     <entry file="file://$PROJECT_DIR$/src/server/model/Reciever.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/entities/Ping.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/Ping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/entities/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="677">
           <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
@@ -583,17 +683,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utility/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/entities/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
@@ -606,24 +696,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/view/ConsoleUpdater.java" />
-    <entry file="file://$PROJECT_DIR$/server.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/TestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/entities/UserList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/UserList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
@@ -640,7 +713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/OnlineManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/OnlineManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
@@ -660,18 +733,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/IModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/ConnectionManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
@@ -683,14 +745,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/DataBaseManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/DataBaseManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/client/ClientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
@@ -700,85 +762,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/view/ViewPresenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/view/ViewPresenter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/view/ServerGUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/server/view/ServerGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/ClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="131">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/ClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/entities/ChatHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        <state relative-caret-position="100">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/view/ServerGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/client/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/jdk.compiler/com/sun/tools/javac/main/Arguments.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="790" selection-start-line="790" selection-end-line="790" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/PostingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/client/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/utility/ClientUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/utility/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Messenger.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="460">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/entities/ChatHistory.java">
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UIView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="79" selection-start-line="10" selection-start-column="79" selection-end-line="10" selection-end-column="79" />
+        <state relative-caret-position="454">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/view/UITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/view/ServerGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yakimov/server/model/IModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="57" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+        <state relative-caret-position="100">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="initializer##0;class#ServerGUI#0" />
-            <element signature="e#863#921#0" />
-            <element signature="docComment;method#$$$setupUI$$$#0;class#ServerGUI#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/server/model/PostingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Messenger</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.openjfx:javafx-graphics:linux:12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

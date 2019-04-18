@@ -2,8 +2,8 @@ package com.yakimov.client;
 
 import com.yakimov.server.model.entities.Message;
 import com.yakimov.server.model.entities.Ping;
-import com.yakimov.server.utility.ClientUtil;
 import com.yakimov.server.utility.Config;
+import com.yakimov.server.utility.MessageFormatter;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -40,7 +40,7 @@ public class ClientThread implements Runnable {
                     //System.out.println("Got ping " + ++k);
                 } else {
                     if (this.login.equals("Оруссум_1"))
-                        System.out.println(this.login + "Recieved: \" " + ClientUtil.formatMessage(msg));
+                        System.out.println(this.login + "Recieved: \" " + MessageFormatter.formatMessage(msg));
                 }
                 if (i < args.length)
                     outputStream.writeObject(new Message(login, args[i++], Message.Type.TEXT));

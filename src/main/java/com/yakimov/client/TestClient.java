@@ -8,7 +8,7 @@ public class TestClient {
         initTest();
     }
 
-    private static void initTest() {
+    public static void initTest() {
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(100);
        /*for(int i = 1; i <= 100; i++)
         int i = 1;

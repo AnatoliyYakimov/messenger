@@ -29,7 +29,7 @@ public class ConnectionManager implements Runnable {
                 while (client == null) {
                     client = socketListener.accept();
                 }
-                IModel.execute(new ClientHandler(client));
+                ModelInterface.execute(new ClientHandler(client));
             }
         } catch (IOException e) {
             e.printStackTrace();

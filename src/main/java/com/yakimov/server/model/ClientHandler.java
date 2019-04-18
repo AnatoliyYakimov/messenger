@@ -2,6 +2,7 @@ package com.yakimov.server.model;
 
 import com.yakimov.server.model.entities.Client;
 import com.yakimov.server.model.entities.Message;
+import com.yakimov.server.model.entities.Ping;
 import com.yakimov.server.utility.Config;
 
 import java.io.IOException;
@@ -34,13 +35,13 @@ class ClientHandler implements Runnable {
     }
 
     private void startPingTimer() {
-        IModel.execute(new Runnable() {
+        ModelInterface.execute(new Runnable() {
             @Override
             public void run() {
                 try {
                     while (pingRecieved) {
                         pingRecieved = false;
-                        outputStream.writeObject(new Message(null, null, Message.Type.PING));
+                        outputStream.writeObject(new Ping());
                         Thread.sleep(Config.DELAY);
                     }
                     throw new IOException("Ping failed: " + client.getLogin());
